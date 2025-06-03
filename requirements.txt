@@ -1,0 +1,9 @@
+numpy
+librosa
+tensorflow
+scikit-learn
+matplotlib
+tqdm
+torchaudio
+torch
+pathlib
