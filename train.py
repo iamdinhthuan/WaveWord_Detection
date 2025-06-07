@@ -280,7 +280,7 @@ class EnhancedWakeWordDataset:
             print(f"Error processing {file_path}: {e}")
             return None
 
-    def load_data(self, augmentation_factor=2):
+    def load_data(self, augmentation_factor=3):
         """
         Load và xử lý tất cả audio files với augmentation
 
@@ -577,8 +577,8 @@ if __name__ == "__main__":
     import time
 
     # Configuration
-    AUDIO_DIR = "dir_folder_data"
-    NOISE_DIR = "dir_noise_audio"
+    AUDIO_DIR = r""
+    NOISE_DIR = r""
     MODEL_PATH = "wakeword_model.h5"
 
     print("Wake Word Detection Training")

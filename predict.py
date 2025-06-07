@@ -285,7 +285,7 @@ def main():
     print("=" * 40)
 
     # Configuration
-    MODEL_PATH = r"D:\train_model\WakeWord\wakeword_model.h5"  # Đường dẫn model
+    MODEL_PATH = "wakeword_model.h5"  # Đường dẫn model
     SAMPLE_RATE = 16000
     WAKE_THRESHOLD = 0.5  # Điều chỉnh threshold này
     VAD_AGGRESSIVENESS = 1  # 0-3, 3 là nhạy nhất
